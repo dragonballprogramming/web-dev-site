@@ -1,0 +1,141 @@
+<%- include("partials/header"); -%>
+
+<body>
+  <!-- Masthead-->
+  <section class="masthead">
+    <header class="masthead">
+      <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+        <div class="d-flex justify-content-center">
+          <div class="text-center">
+            <h1 class="mx-auto my-0 text-uppercase logo-heading"><img class="main-logo" src="img/brandmark-design.png" alt=""></h1>
+            <h2 class="h2 mx-auto mt-2 mb-5">Your Local Web Design and SEO Professional</h2>
+            <a class="btn-1 btn btn-primary contact-btn" href="#signup">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </header>
+  </section>
+  <!-- About-->
+  <section class="about-section" id="about">
+
+    <div class="columns-about">
+      <div class="rounded float-left">
+        <h2 class="text-white mb-4 card-title mission-statement">Our Mission</h2>
+        <p class="text-white-50 about-text">
+          Whether you’re looking to increase your leads or generate more sales, our Colorado based Website Design Agency can do it all. We build your website with the end goal in mind.
+          Our websites not only drive leads and generate sales, but emphasize converting your visitors into customers.
+        </p>
+      </div>
+      <!-- <div class="rounded img-div float-end">
+              <img class="grey-scale img-me img-fluid" src="img/me-pic-final.png" alt="..." />
+        </div> -->
+    </div>
+  </section>
+  <!-- Projects-->
+  <section class="projects-section" id="projects">
+    <section class="card-body left-column" id="left-column">
+      <div class="card full-card" style="background-image: url('img/man-searching-for-job.png');">
+        <div class="card-content">
+          <h2 class="card-title">SEO</h2>
+          <p class="body-card">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+            specimen book. It has survived not only five centuries,
+          </p>
+          <a href="/seo" class="button-card">Learn More</a>
+        </div>
+      </div>
+    </section>
+    <section class="card-body right-column" id="right-column">
+      <div class="card full-card" style="background-image: url('img/lightning-mountain.png');">
+        <div class="card-content">
+          <h2 class="card-title">Lightning Fast</h2>
+          <p class="body-card">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+            specimen book. It has survived not only five centuries,
+          </p>
+          <a href="/faster" class="button-card">Learn More</a>
+        </div>
+      </div>
+    </section>
+    <section class="card-body center-column" id="center-column">
+      <div class="card full-card">
+        <div class="card-content">
+          <h2 class="card-title">Mobile Friendly</h2>
+          <p class="body-card">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+            specimen book. It has survived not only five centuries,
+          </p>
+          <a href="/mobilefriend" class="button-card">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+  </section>
+  <!-- Signup-->
+  <section class="signup-section" id="signup">
+    <div class="container px-4 px-lg-5">
+      <div class="row gx-4 gx-lg-5">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
+          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+          <h2 class="text-white mb-5">Contact Me</h2>
+
+          <form class="form-signup" action="/" method="post">
+            <div class="row form-group">
+              <div class="col"><input class="form-control" name="emailAddress" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." required></div>
+              <div class="col">
+                <input class="form-control" name="contactReason" id="contactReason" placeholder="Reason for Contact..." aria-label="Reason for Contact..."></input>
+              </div>
+            </div>
+            <div class="col-auto">
+              <button class="btn-1 btn btn-primary" type="submit" name="button">Notify Me!</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact-->
+  <section class="contact-section bg-black">
+    <div class="container px-4 px-lg-5">
+      <div class="row gx-4 gx-lg-5">
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Address</h4>
+              <hr class="my-4 mx-auto" />
+              <div class="small text-black-50">P.O. Box 482, Pierce CO 80650</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-envelope text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Email</h4>
+              <hr class="my-4 mx-auto" />
+              <div class="small text-black-50"><a class="text-blue" href="#!">customerconnect@colorad-designs.com</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-mobile-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Phone</h4>
+              <hr class="my-4 mx-auto" />
+              <div class="small text-black-50">+1 (720) 808-4903 </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="social d-flex justify-content-center">
+        <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+        <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+        <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+    
+  </section>
+</body>
+<%- include("partials/footer"); -%>

@@ -1,0 +1,17 @@
+{
+    "SEO" : {
+        "What is it?" : "Search engine optimization (SEO) is the process of improving the quality and quantity of website traffic to a website or a web page from search engines.[1][2] SEO targets unpaid traffic (known as 'natural' or 'organic' results) rather than direct traffic or paid traffic. Unpaid traffic may originate from different kinds of searches, including image search, video search, academic search,[3] news search, and industry-specific vertical search engines.",
+        "Why you need it." : "As an Internet marketing strategy, SEO considers how search engines work, the computer-programmed algorithms that dictate search engine behavior, what people search for, the actual search terms or keywords typed into search engines, and which search engines are preferred by their targeted audience. SEO is performed because a website will receive more visitors from a search engine when websites rank higher on the search engine results page (SERP). These visitors can then potentially be converted into customers.",
+        "background-image" : "img/man-searching-for-job.png"
+    },
+    "Mobile Friendly": {
+        "What is it?": "Being mobile friendly when it comes to a web site means that the site is created with the knowledge that most visitors to the site are going to do it from their phones or tablets. This requires a completely different layout then a traditional computer screen. As well as their processing speeds may not be as high meaning some content could slow downloading which can increase bounce back." ,
+        "Why you need it." : "The main device used to surf the web is the mobile device. This means your site should look and feel good when using any mobile device.",
+        "background-image" : "img/phone-img.png"
+    },
+    "Load Speed" : {
+        "What is it?" : "Load speed is how long it takes for a device to load up your page. Depending on how your website is setup the load times can be different from different devices.",
+        "Why you need it." : "When a potential customer is going to your page for the first time ever millisecond counts. In fact for every millisecond that it takes for the website takes to load the percent of bounce back or customers leaving your page without reading it goes up.",
+        "background-image" : "img/lightning-mountain.png"
+    }
+}
