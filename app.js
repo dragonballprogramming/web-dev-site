@@ -59,8 +59,8 @@ app.get("/mobilefriend", function(req, res) {
 });
 
 let port = process.env.Port;
-if ( port == nul || port == "3000") {
-  console.log("server has started")
+if ( port == null || port == "") {
+  port = 3000;
 }
 
 app.listen(port, function() {
