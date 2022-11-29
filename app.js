@@ -6,6 +6,7 @@ const about_pages = require("./about-pages.json");
 const sgMail = require('@sendgrid/mail')
 
 require('dotenv').config()
+
 const app = express();
 
 sgMail.setApiKey(process.env.SENDGRID_API_KEY)
@@ -15,9 +16,8 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({
   extended: true
 }));
+
 app.use(express.static("public"));
-
-
 
 app.get("/", function(req, res) {
   res.render("home");
@@ -43,7 +43,6 @@ sgMail
     console.error(error)
   })
 
-
   res.render("home");
 });
 
@@ -57,9 +56,13 @@ app.get("/faster", function(req, res) {
 
 app.get("/mobilefriend", function(req, res) {
   res.render("seo", {data: about_pages['Mobile Friendly']});
-})
+});
 
+let port = process.env.Port;
+if ( port == nul || port == "3000") {
+  console.log("server has started")
+}
 
-app.listen(3000, function() {
+app.listen(port, function() {
   console.log("Server is running on port 3000");
 })
